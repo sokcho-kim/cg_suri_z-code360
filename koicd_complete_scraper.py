@@ -267,54 +267,156 @@ class KOICDScraper:
             return False
 
     async def check_toggle_button(self, row):
-        """행에 토글 버튼(+)이 있는지 확인"""
+        """행에 토글 버튼(+)이 있는지 확인 - 강화된 감지 로직"""
         try:
             tds = await row.query_selector_all("td")
-            if len(tds) > 0:
-                first_td = tds[0]
-                td_text = (await first_td.text_content()).strip()
+            if len(tds) == 0:
+                return False, None
+            
+            # 모든 TD를 순차적으로 확인 (보통 첫 번째 TD에 있지만 다른 곳에 있을 수도 있음)
+            for td_idx, td in enumerate(tds[:3]):  # 처음 3개 TD만 확인
+                # 1. 직접적인 '+' 텍스트 확인
+                td_text = (await td.text_content()).strip()
+                logger.debug(f"TD[{td_idx}] 텍스트: '{td_text}'")
                 
-                # '+' 텍스트가 있는지 확인
-                if '+' in td_text:
-                    return True, first_td
+                if '+' in td_text or '＋' in td_text:  # 전각 + 문자도 확인
+                    logger.debug(f"TD[{td_idx}]에서 + 텍스트 발견")
+                    return True, td
                 
-                # 버튼 요소나 클릭 가능한 요소 확인
-                button_elements = await first_td.query_selector_all("button, span, a, div")
-                for element in button_elements:
+                # 2. HTML 내용에서 토글 요소 찾기
+                td_html = await td.inner_html()
+                if ('+' in td_html or '＋' in td_html or 
+                    'expand' in td_html.lower() or 'toggle' in td_html.lower()):
+                    logger.debug(f"TD[{td_idx}] HTML에서 토글 요소 발견")
+                    return True, td
+                
+                # 3. 하위 요소들 상세 확인
+                all_elements = await td.query_selector_all("*")
+                for element in all_elements:
                     element_text = (await element.text_content()).strip()
-                    if '+' in element_text or 'expand' in element_text.lower():
+                    element_tag = await element.evaluate('el => el.tagName.toLowerCase()')
+                    
+                    if ('+' in element_text or '＋' in element_text or
+                        'expand' in element_text.lower() or 'toggle' in element_text.lower()):
+                        logger.debug(f"TD[{td_idx}]의 {element_tag} 요소에서 토글 발견: '{element_text}'")
                         return True, element
                 
-                # cursor:pointer 스타일 확인
-                cursor_style = await first_td.evaluate('el => window.getComputedStyle(el).cursor')
-                if cursor_style == 'pointer':
-                    return True, first_td
+                # 4. onclick 속성 확인
+                onclick = await td.get_attribute('onclick')
+                if onclick and ('toggle' in onclick.lower() or 'expand' in onclick.lower() or 'fold' in onclick.lower()):
+                    logger.debug(f"TD[{td_idx}]에서 onclick 토글 함수 발견: {onclick}")
+                    return True, td
+                
+                # 5. CSS 클래스로 토글 버튼 확인
+                td_class = await td.get_attribute('class')
+                if td_class and ('toggle' in td_class.lower() or 'expand' in td_class.lower()):
+                    logger.debug(f"TD[{td_idx}]에서 토글 클래스 발견: {td_class}")
+                    return True, td
+                
+                # 6. cursor:pointer 스타일 확인 (마지막 수단)
+                cursor_style = await td.evaluate('el => window.getComputedStyle(el).cursor')
+                if cursor_style == 'pointer' and td_text:  # 빈 텍스트가 아닌 경우만
+                    logger.debug(f"TD[{td_idx}]에서 cursor:pointer 발견")
+                    return True, td
             
+            logger.debug("토글 버튼을 찾을 수 없음")
             return False, None
             
         except Exception as e:
-            logger.debug(f"토글 버튼 확인 오류: {e}")
+            logger.error(f"토글 버튼 확인 오류: {e}")
             return False, None
 
     async def expand_child_rows(self, toggle_element):
-        """하위 행들을 펼치기 위해 토글 버튼 클릭"""
+        """하위 행들을 펼치기 위해 토글 버튼 클릭 - 강화된 확장 로직"""
         try:
-            logger.debug("토글 버튼 클릭 시도")
-            await toggle_element.click()
-            await asyncio.sleep(1)  # 펼치기 애니메이션 대기
+            # 클릭 전 행 개수 저장
+            initial_rows = await self.page.query_selector_all('table.act_table tbody tr')
+            initial_count = len(initial_rows)
+            logger.debug(f"클릭 전 행 개수: {initial_count}")
             
-            # 하위 행들이 나타날 때까지 대기
-            for attempt in range(5):
-                current_rows = await self.page.query_selector_all('table.act_table tbody tr')
-                await asyncio.sleep(0.5)
-                new_rows = await self.page.query_selector_all('table.act_table tbody tr')
+            # 다양한 클릭 방법 시도
+            click_methods = [
+                ("일반 클릭", lambda: toggle_element.click()),
+                ("강제 클릭", lambda: toggle_element.click(force=True)),
+                ("JavaScript 클릭", lambda: toggle_element.evaluate('el => el.click()')),
+                ("더블 클릭", lambda: toggle_element.dblclick()),
+            ]
+            
+            for method_name, click_method in click_methods:
+                try:
+                    logger.debug(f"{method_name} 시도")
+                    await click_method()
+                    
+                    # 클릭 후 변화 확인 (최대 10초 대기)
+                    for attempt in range(20):  # 0.5초씩 20번 = 10초
+                        await asyncio.sleep(0.5)
+                        current_rows = await self.page.query_selector_all('table.act_table tbody tr')
+                        current_count = len(current_rows)
+                        
+                        if current_count > initial_count:
+                            added_rows = current_count - initial_count
+                            logger.info(f"✅ {method_name} 성공: {added_rows}개 하위 행 추가됨")
+                            return True
+                        
+                        # 팝업이나 모달이 나타났는지 확인 (상세정보 팝업과 구분)
+                        popup_selectors = [".div_table_style", ".popup", ".modal"]
+                        for selector in popup_selectors:
+                            popup = await self.page.query_selector(selector)
+                            if popup and await popup.is_visible():
+                                # 상세정보 팝업이 나타난 경우 닫기
+                                await self.close_popup(popup)
+                                logger.debug("상세정보 팝업 닫음")
+                                break
+                    
+                    logger.debug(f"{method_name} - 행 개수 변화 없음")
+                    
+                except Exception as e:
+                    logger.debug(f"{method_name} 실패: {e}")
+                    continue
+            
+            # 모든 클릭 방법 실패 시 JavaScript 함수 직접 호출 시도
+            try:
+                logger.debug("JavaScript 토글 함수 직접 호출 시도")
                 
-                if len(new_rows) > len(current_rows):
-                    logger.debug(f"하위 행 펼치기 완료: {len(new_rows) - len(current_rows)}개 행 추가")
-                    return True
+                # 페이지에서 토글 관련 함수 찾기
+                toggle_functions = await self.page.evaluate("""
+                    () => {
+                        const functions = [];
+                        for (let prop in window) {
+                            if (typeof window[prop] === 'function' && 
+                                (prop.toLowerCase().includes('toggle') || 
+                                 prop.toLowerCase().includes('expand') || 
+                                 prop.toLowerCase().includes('fold'))) {
+                                functions.push(prop);
+                            }
+                        }
+                        return functions;
+                    }
+                """)
+                
+                if toggle_functions:
+                    logger.debug(f"발견된 토글 함수들: {toggle_functions}")
+                    
+                    for func_name in toggle_functions:
+                        try:
+                            # 함수 호출 (행 인덱스나 ID가 필요할 수 있음)
+                            await self.page.evaluate(f"{func_name}()")
+                            await asyncio.sleep(1)
+                            
+                            final_rows = await self.page.query_selector_all('table.act_table tbody tr')
+                            if len(final_rows) > initial_count:
+                                logger.info(f"✅ JavaScript 함수 {func_name} 성공: {len(final_rows) - initial_count}개 행 추가")
+                                return True
+                                
+                        except Exception as e:
+                            logger.debug(f"함수 {func_name} 호출 실패: {e}")
+                            continue
             
-            logger.debug("하위 행 펼치기 완료")
-            return True
+            except Exception as e:
+                logger.debug(f"JavaScript 함수 호출 시도 실패: {e}")
+            
+            logger.warning("모든 하위 행 펼치기 방법 실패")
+            return False
             
         except Exception as e:
             logger.error(f"하위 행 펼치기 오류: {e}")
@@ -463,20 +565,25 @@ class KOICDScraper:
                     parent_code = main_data['수가코드']
                     
                     # 2. 토글 버튼 확인 및 하위 행 처리
+                    logger.info(f"  {parent_code}: 토글 버튼 확인 중...")
                     has_toggle, toggle_element = await self.check_toggle_button(main_row)
                     
                     if has_toggle:
-                        logger.info(f"  {parent_code}: 하위 항목 발견, 펼치기 시도")
+                        logger.info(f"  {parent_code}: ✅ 하위 항목 토글 버튼 발견! 펼치기 시도")
                         
                         # 하위 행 펼치기
-                        if await self.expand_child_rows(toggle_element):
+                        expansion_success = await self.expand_child_rows(toggle_element)
+                        if expansion_success:
+                            logger.info(f"  {parent_code}: 하위 행 펼치기 성공")
+                            
                             # 하위 행들 식별
                             child_rows = await self.identify_child_rows(main_row, row_class)
                             
                             if child_rows:
-                                logger.info(f"  {parent_code}: {len(child_rows)}개 하위 행 처리 시작")
+                                logger.info(f"  {parent_code}: 🎯 {len(child_rows)}개 하위 행 발견! 처리 시작")
                                 
                                 # 각 하위 행 처리
+                                successful_children = 0
                                 for j, child_row in enumerate(child_rows):
                                     child_data = await self.process_single_row(
                                         child_row, 
@@ -488,17 +595,22 @@ class KOICDScraper:
                                         # 부모 정보 업데이트
                                         main_data['is_parent'] = True
                                         page_data.append(child_data)
+                                        successful_children += 1
                                         
                                         # 하위 행 간 대기
                                         await asyncio.sleep(0.3)
                                 
-                                logger.info(f"  {parent_code}: 하위 행 처리 완료")
+                                logger.info(f"  {parent_code}: ✅ 하위 행 처리 완료 ({successful_children}/{len(child_rows)} 성공)")
+                            else:
+                                logger.warning(f"  {parent_code}: ⚠️ 펼치기 성공했지만 하위 행을 식별할 수 없음")
                             
                             # 하위 행 다시 접기 (선택사항)
                             await self.collapse_child_rows(toggle_element)
                             await asyncio.sleep(0.5)
+                        else:
+                            logger.warning(f"  {parent_code}: ❌ 하위 행 펼치기 실패")
                     else:
-                        logger.debug(f"  {parent_code}: 하위 항목 없음")
+                        logger.info(f"  {parent_code}: 하위 항목 없음 (토글 버튼 미발견)")
                     
                     # 메인 행 간 대기
                     await asyncio.sleep(0.5)
