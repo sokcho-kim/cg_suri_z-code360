@@ -1,0 +1,532 @@
+{
+  "initial_tables": [
+    {
+      "index": 1,
+      "id": "loading",
+      "class": "",
+      "style": "display: none;",
+      "visible": false,
+      "position": "hidden",
+      "structure": "숨겨진 테이블",
+      "sample_content": "숨겨진 테이블",
+      "parent": "body.ui-layout-container"
+    },
+    {
+      "index": 2,
+      "id": "",
+      "class": "",
+      "style": "",
+      "visible": true,
+      "position": {
+        "x": 777.5531005859375,
+        "y": -0.203125,
+        "width": 396.03125,
+        "height": 41.421875
+      },
+      "structure": {
+        "total_rows": 1,
+        "tbody_rows": 1,
+        "headers": 0
+      },
+      "sample_content": "로그인\n            |\n            \n              \n              회원가입\n            \n            |\n        ",
+      "parent": "div.top_menu"
+    },
+    {
+      "index": 3,
+      "id": "",
+      "class": "table",
+      "style": "",
+      "visible": false,
+      "position": "hidden",
+      "structure": "숨겨진 테이블",
+      "sample_content": "숨겨진 테이블",
+      "parent": "div.line4"
+    },
+    {
+      "index": 4,
+      "id": "",
+      "class": "",
+      "style": "",
+      "visible": true,
+      "position": {
+        "x": 0,
+        "y": 190,
+        "width": 234.46875,
+        "height": 1233.984375
+      },
+      "structure": {
+        "total_rows": 289,
+        "tbody_rows": 289,
+        "headers": 0
+      },
+      "sample_content": "▽의치과 급여",
+      "parent": "div.side_box"
+    },
+    {
+      "index": 5,
+      "id": "",
+      "class": "table_style table",
+      "style": "",
+      "visible": false,
+      "position": "hidden",
+      "structure": "숨겨진 테이블",
+      "sample_content": "숨겨진 테이블",
+      "parent": "div"
+    },
+    {
+      "index": 6,
+      "id": "",
+      "class": "act_table",
+      "style": "",
+      "visible": true,
+      "position": {
+        "x": 428,
+        "y": 320.3125,
+        "width": 708.75,
+        "height": 1242.65625
+      },
+      "structure": {
+        "total_rows": 21,
+        "tbody_rows": 20,
+        "headers": 5
+      },
+      "sample_content": "+AA100초진진찰료-치과의원, 보건의료원 내 치과의치과 급여>기본진료료>진찰료",
+      "parent": "div.contentbox"
+    },
+    {
+      "index": 7,
+      "id": "",
+      "class": "",
+      "style": "",
+      "visible": false,
+      "position": "hidden",
+      "structure": "숨겨진 테이블",
+      "sample_content": "숨겨진 테이블",
+      "parent": "div.line2"
+    }
+  ],
+  "final_tables": [
+    {
+      "index": 1,
+      "id": "loading",
+      "class": "",
+      "style": "display: none;",
+      "visible": false,
+      "position": "hidden",
+      "structure": "숨겨진 테이블",
+      "sample_content": "숨겨진 테이블",
+      "parent": "body.ui-layout-container"
+    },
+    {
+      "index": 2,
+      "id": "",
+      "class": "",
+      "style": "",
+      "visible": true,
+      "position": {
+        "x": 777.5531005859375,
+        "y": -0.203125,
+        "width": 396.03125,
+        "height": 41.421875
+      },
+      "structure": {
+        "total_rows": 1,
+        "tbody_rows": 1,
+        "headers": 0
+      },
+      "sample_content": "로그인\n            |\n            \n              \n              회원가입\n            \n            |\n        ",
+      "parent": "div.top_menu"
+    },
+    {
+      "index": 3,
+      "id": "",
+      "class": "table",
+      "style": "",
+      "visible": false,
+      "position": "hidden",
+      "structure": "숨겨진 테이블",
+      "sample_content": "숨겨진 테이블",
+      "parent": "div.line4"
+    },
+    {
+      "index": 4,
+      "id": "",
+      "class": "",
+      "style": "",
+      "visible": true,
+      "position": {
+        "x": 0,
+        "y": 190,
+        "width": 234.46875,
+        "height": 1233.984375
+      },
+      "structure": {
+        "total_rows": 289,
+        "tbody_rows": 289,
+        "headers": 0
+      },
+      "sample_content": "▽의치과 급여",
+      "parent": "div.side_box"
+    },
+    {
+      "index": 5,
+      "id": "",
+      "class": "table_style table",
+      "style": "",
+      "visible": false,
+      "position": "hidden",
+      "structure": "숨겨진 테이블",
+      "sample_content": "숨겨진 테이블",
+      "parent": "div"
+    },
+    {
+      "index": 6,
+      "id": "",
+      "class": "act_table",
+      "style": "",
+      "visible": true,
+      "position": {
+        "x": 428,
+        "y": 318.3125,
+        "width": 708.75,
+        "height": 1242.65625
+      },
+      "structure": {
+        "total_rows": 21,
+        "tbody_rows": 20,
+        "headers": 5
+      },
+      "sample_content": "+AA100초진진찰료-치과의원, 보건의료원 내 치과의치과 급여>기본진료료>진찰료",
+      "parent": "div.contentbox"
+    },
+    {
+      "index": 7,
+      "id": "",
+      "class": "",
+      "style": "",
+      "visible": false,
+      "position": "hidden",
+      "structure": "숨겨진 테이블",
+      "sample_content": "숨겨진 테이블",
+      "parent": "div.line2"
+    }
+  ],
+  "data_table_info": {
+    "container_rows_count": 20,
+    "first_row": {
+      "class": "5323",
+      "content": "+AA100초진진찰료-치과의원, 보건의료원 내 치과의치과 급여>기본진료료>진찰료"
+    }
+  },
+  "row_structure_info": {
+    "td_count": 5,
+    "td_contents": [
+      {
+        "index": 0,
+        "content": "+",
+        "full_content": "+"
+      },
+      {
+        "index": 1,
+        "content": "AA100",
+        "full_content": "AA100"
+      },
+      {
+        "index": 2,
+        "content": "초진진찰료-치과의원, 보건의료원 내 치과의치과 급여>기본진료료>진찰료",
+        "full_content": "초진진찰료-치과의원, 보건의료원 내 치과의치과 급여>기본진료료>진찰료"
+      },
+      {
+        "index": 3,
+        "content": "",
+        "full_content": ""
+      },
+      {
+        "index": 4,
+        "content": "",
+        "full_content": ""
+      }
+    ],
+    "clickable_tds": [
+      {
+        "index": 0,
+        "reason": "cursor:pointer"
+      },
+      {
+        "index": 1,
+        "reason": "cursor:pointer"
+      },
+      {
+        "index": 2,
+        "reason": "cursor:pointer"
+      },
+      {
+        "index": 3,
+        "reason": "cursor:pointer"
+      },
+      {
+        "index": 4,
+        "reason": "cursor:pointer"
+      }
+    ],
+    "row_class_patterns": [
+      "5439",
+      "5323",
+      "5373",
+      "5473",
+      "5406"
+    ]
+  },
+  "network_requests": [
+    {
+      "url": "https://www.koicd.kr/ins/act.do",
+      "method": "GET",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"139\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "post_data": null,
+      "status": 200,
+      "response_headers": {
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-language": "ko-KR",
+        "content-type": "text/html;charset=UTF-8",
+        "date": "Tue, 05 Aug 2025 07:24:48 GMT",
+        "server": "nginx/1.10.2",
+        "transfer-encoding": "chunked"
+      }
+    },
+    {
+      "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8637914254148498",
+      "method": "GET",
+      "headers": {
+        "origin": "https://www.koicd.kr",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://www.koicd.kr/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"139\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "status": 200,
+      "response_headers": {
+        "content-encoding": "br",
+        "etag": "16981636586450439026",
+        "x-content-type-options": "nosniff",
+        "expires": "Tue, 05 Aug 2025 07:24:48 GMT",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+        "date": "Tue, 05 Aug 2025 07:24:48 GMT",
+        "content-type": "text/javascript; charset=UTF-8",
+        "vary": "Accept-Encoding",
+        "content-disposition": "attachment; filename=\"f.txt\"",
+        "link": "<https://googleads.g.doubleclick.net>; rel=\"preconnect\"; crossorigin",
+        "cache-control": "private, max-age=3600, stale-while-revalidate=3600",
+        "timing-allow-origin": "*",
+        "cross-origin-resource-policy": "cross-origin",
+        "access-control-allow-origin": "*",
+        "content-length": "53485",
+        "x-xss-protection": "0",
+        "server": "cafe"
+      }
+    },
+    {
+      "url": "https://www.koicd.kr/css/bootstrap.min.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://www.koicd.kr/ins/act.do",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"139\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "status": 200,
+      "response_headers": {
+        "transfer-encoding": "chunked",
+        "content-encoding": "gzip",
+        "etag": "W/\"121265-1747046038000\"",
+        "connection": "keep-alive",
+        "date": "Tue, 05 Aug 2025 07:24:48 GMT",
+        "content-type": "text/css",
+        "last-modified": "Mon, 12 May 2025 10:33:58 GMT",
+        "server": "nginx/1.10.2"
+      }
+    },
+    {
+      "url": "https://www.koicd.kr/css/memo/font-awesome.min.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://www.koicd.kr/ins/act.do",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"139\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "status": 200,
+      "response_headers": {
+        "transfer-encoding": "chunked",
+        "content-encoding": "gzip",
+        "etag": "W/\"31025-1747046038000\"",
+        "connection": "keep-alive",
+        "date": "Tue, 05 Aug 2025 07:24:48 GMT",
+        "content-type": "text/css",
+        "last-modified": "Mon, 12 May 2025 10:33:58 GMT",
+        "server": "nginx/1.10.2"
+      }
+    },
+    {
+      "url": "https://www.koicd.kr/js/framework/jquery-1.9.1.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://www.koicd.kr/ins/act.do",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"139\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "status": 200,
+      "response_headers": {
+        "transfer-encoding": "chunked",
+        "content-encoding": "gzip",
+        "etag": "W/\"368995-1747046040000\"",
+        "connection": "keep-alive",
+        "date": "Tue, 05 Aug 2025 07:24:48 GMT",
+        "content-type": "application/javascript",
+        "last-modified": "Mon, 12 May 2025 10:34:00 GMT",
+        "server": "nginx/1.10.2"
+      }
+    },
+    {
+      "url": "https://www.koicd.kr/js/bootstrap.min.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://www.koicd.kr/ins/act.do",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"139\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "status": 200,
+      "response_headers": {
+        "transfer-encoding": "chunked",
+        "content-encoding": "gzip",
+        "etag": "W/\"36874-1747046040000\"",
+        "connection": "keep-alive",
+        "date": "Tue, 05 Aug 2025 07:24:48 GMT",
+        "content-type": "application/javascript",
+        "last-modified": "Mon, 12 May 2025 10:34:00 GMT",
+        "server": "nginx/1.10.2"
+      }
+    },
+    {
+      "url": "https://fonts.googleapis.com/earlyaccess/notosanskr.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://www.koicd.kr/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"139\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "status": 200,
+      "response_headers": {
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "expires": "Tue, 05 Aug 2025 07:24:48 GMT",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "date": "Tue, 05 Aug 2025 07:24:48 GMT",
+        "content-type": "text/css; charset=utf-8",
+        "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+        "last-modified": "Tue, 05 Aug 2025 06:37:04 GMT",
+        "x-frame-options": "SAMEORIGIN",
+        "strict-transport-security": "max-age=31536000",
+        "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+        "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+        "timing-allow-origin": "*",
+        "cross-origin-opener-policy": "same-origin-allow-popups",
+        "cross-origin-resource-policy": "cross-origin",
+        "access-control-allow-origin": "*",
+        "x-xss-protection": "0",
+        "server": "ESF"
+      }
+    },
+    {
+      "url": "https://www.koicd.kr/css/kcd7/jquery-layout.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://www.koicd.kr/ins/act.do",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"139\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "status": 200,
+      "response_headers": {
+        "transfer-encoding": "chunked",
+        "content-encoding": "gzip",
+        "etag": "W/\"5608-1747046038000\"",
+        "connection": "keep-alive",
+        "date": "Tue, 05 Aug 2025 07:24:48 GMT",
+        "content-type": "text/css",
+        "last-modified": "Mon, 12 May 2025 10:33:58 GMT",
+        "server": "nginx/1.10.2"
+      }
+    },
+    {
+      "url": "https://www.koicd.kr/css/jquery-ui-1.10.4.custom.min.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://www.koicd.kr/ins/act.do",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"139\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "status": 200,
+      "response_headers": {
+        "transfer-encoding": "chunked",
+        "content-encoding": "gzip",
+        "etag": "W/\"27282-1747046038000\"",
+        "connection": "keep-alive",
+        "date": "Tue, 05 Aug 2025 07:24:48 GMT",
+        "content-type": "text/css",
+        "last-modified": "Mon, 12 May 2025 10:33:58 GMT",
+        "server": "nginx/1.10.2"
+      }
+    },
+    {
+      "url": "https://www.koicd.kr/css/memo/style.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://www.koicd.kr/ins/act.do",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"139\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "status": 200,
+      "response_headers": {
+        "transfer-encoding": "chunked",
+        "content-encoding": "gzip",
+        "etag": "W/\"7675-1752500744000\"",
+        "connection": "keep-alive",
+        "date": "Tue, 05 Aug 2025 07:24:48 GMT",
+        "content-type": "text/css",
+        "last-modified": "Mon, 14 Jul 2025 13:45:44 GMT",
+        "server": "nginx/1.10.2"
+      }
+    }
+  ]
+}
