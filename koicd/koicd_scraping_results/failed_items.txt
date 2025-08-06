@@ -1,0 +1,398 @@
+[
+  {
+    "code": "AA156",
+    "page": 1,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T18:53:15.419263"
+  },
+  {
+    "code": "AA156",
+    "page": 1,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T18:53:15.421274"
+  },
+  {
+    "code": "AA156",
+    "page": 1,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T18:53:15.421274"
+  },
+  {
+    "code": "AA156",
+    "page": 1,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T18:53:15.421274"
+  },
+  {
+    "code": "AA156",
+    "page": 1,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T18:53:15.423277"
+  },
+  {
+    "code": "AA156",
+    "page": 1,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T18:53:15.423277"
+  },
+  {
+    "code": "AA156",
+    "page": 1,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T18:53:15.425728"
+  },
+  {
+    "code": "AA156",
+    "page": 1,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T18:53:15.427449"
+  },
+  {
+    "code": "AA156",
+    "page": 1,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T18:53:15.428374"
+  },
+  {
+    "code": "AA156",
+    "page": 1,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T18:53:15.429375"
+  },
+  {
+    "code": "AA156",
+    "page": 1,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T18:53:15.430376"
+  },
+  {
+    "code": "AA156",
+    "page": 1,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T18:53:15.430376"
+  },
+  {
+    "code": "AB125",
+    "page": 2,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:11:36.102221"
+  },
+  {
+    "code": "AB125",
+    "page": 2,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:11:36.104224"
+  },
+  {
+    "code": "AB125",
+    "page": 2,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:11:36.104224"
+  },
+  {
+    "code": "AB125",
+    "page": 2,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:11:36.106227"
+  },
+  {
+    "code": "AB125",
+    "page": 2,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:11:36.106227"
+  },
+  {
+    "code": "AB125",
+    "page": 2,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:11:36.108231"
+  },
+  {
+    "code": "AB125",
+    "page": 2,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:11:36.108231"
+  },
+  {
+    "code": "AB125",
+    "page": 2,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:11:36.110171"
+  },
+  {
+    "code": "AB125",
+    "page": 2,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:11:36.111875"
+  },
+  {
+    "code": "AB202",
+    "page": 3,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:31:40.687499"
+  },
+  {
+    "code": "AB202",
+    "page": 3,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:31:40.687499"
+  },
+  {
+    "code": "AB202",
+    "page": 3,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:31:40.689502"
+  },
+  {
+    "code": "AB202",
+    "page": 3,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:31:40.689502"
+  },
+  {
+    "code": "AB202",
+    "page": 3,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:31:40.691505"
+  },
+  {
+    "code": "AB202",
+    "page": 3,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:31:40.691505"
+  },
+  {
+    "code": "AB202",
+    "page": 3,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:31:40.693966"
+  },
+  {
+    "code": "AB202",
+    "page": 3,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:31:40.695379"
+  },
+  {
+    "code": "AB245",
+    "page": 4,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:50:01.669608"
+  },
+  {
+    "code": "AB245",
+    "page": 4,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:50:01.671617"
+  },
+  {
+    "code": "AB245",
+    "page": 4,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:50:01.673120"
+  },
+  {
+    "code": "AB245",
+    "page": 4,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:50:01.673120"
+  },
+  {
+    "code": "AB245",
+    "page": 4,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:50:01.675128"
+  },
+  {
+    "code": "AB245",
+    "page": 4,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:50:01.675128"
+  },
+  {
+    "code": "AB245",
+    "page": 4,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:50:01.676923"
+  },
+  {
+    "code": "AB245",
+    "page": 4,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:50:01.678699"
+  },
+  {
+    "code": "AB245",
+    "page": 4,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T19:50:01.679009"
+  },
+  {
+    "code": "AB301",
+    "page": 5,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:08:23.985285"
+  },
+  {
+    "code": "AB301",
+    "page": 5,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:08:23.987287"
+  },
+  {
+    "code": "AB301",
+    "page": 5,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:08:23.987287"
+  },
+  {
+    "code": "AB301",
+    "page": 5,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:08:23.989290"
+  },
+  {
+    "code": "AB301",
+    "page": 5,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:08:23.989290"
+  },
+  {
+    "code": "AB301",
+    "page": 5,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:08:23.989290"
+  },
+  {
+    "code": "AB301",
+    "page": 5,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:08:23.991817"
+  },
+  {
+    "code": "AB301",
+    "page": 5,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:08:23.993390"
+  },
+  {
+    "code": "AB301",
+    "page": 5,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:08:23.994415"
+  },
+  {
+    "code": "AB347",
+    "page": 6,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:28:30.467613"
+  },
+  {
+    "code": "AB347",
+    "page": 6,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:28:30.467613"
+  },
+  {
+    "code": "AB347",
+    "page": 6,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:28:30.469622"
+  },
+  {
+    "code": "AB347",
+    "page": 6,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:28:30.469622"
+  },
+  {
+    "code": "AB347",
+    "page": 6,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:28:30.471625"
+  },
+  {
+    "code": "AB347",
+    "page": 6,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:28:30.471625"
+  },
+  {
+    "code": "AB347",
+    "page": 6,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:28:30.473540"
+  },
+  {
+    "code": "AB347",
+    "page": 6,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:28:30.474542"
+  },
+  {
+    "code": "AC001",
+    "page": 7,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:46:51.583662"
+  },
+  {
+    "code": "AC001",
+    "page": 7,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:46:51.585665"
+  },
+  {
+    "code": "AC001",
+    "page": 7,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:46:51.586932"
+  },
+  {
+    "code": "AC001",
+    "page": 7,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:46:51.587936"
+  },
+  {
+    "code": "AC001",
+    "page": 7,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:46:51.587936"
+  },
+  {
+    "code": "AC001",
+    "page": 7,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:46:51.589938"
+  },
+  {
+    "code": "AC001",
+    "page": 7,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:46:51.591183"
+  },
+  {
+    "code": "AC001",
+    "page": 7,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:46:51.592937"
+  },
+  {
+    "code": "AC001",
+    "page": 7,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T20:46:51.593257"
+  },
+  {
+    "code": "AC721",
+    "page": 8,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T21:16:40.591316"
+  },
+  {
+    "code": "AC721",
+    "page": 8,
+    "error": "ElementHandle.get_attribute: The object has been collected to prevent unbounded heap growth.",
+    "timestamp": "2025-08-05T21:16:40.593319"
+  }
+]
