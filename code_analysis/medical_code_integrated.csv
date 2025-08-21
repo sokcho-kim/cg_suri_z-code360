@@ -1,0 +1,202 @@
+﻿수가코드,수가명_한글,수가명_영문,단가정보,상병코드,상병명_한글,상병명_영문,매칭타입,매칭컬럼,유사도
+IER45320,(비상)자궁외임신수술-자궁각임신(권역응급의료센터·전문응급의료센터·권역외상센터),Cornual Pregnancy,2251.93,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+IER45321,(비상)자궁외임신수술-자궁각임신(지역응급의료센터),Cornual Pregnancy,6755.79,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+IER45323,(비상)자궁외임신수술-자궁각임신(권역응급의료센터·전문응급의료센터·권역외상센터·지역응급의료센터),Cornual Pregnancy,2251.93,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+IER45330,(비상)자궁외임신수술-자궁경관임신(권역응급의료센터·전문응급의료센터·권역외상센터),Cervical Pregnancy,1607.83,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+IER45331,(비상)자궁외임신수술-자궁경관임신(지역응급의료센터),Cervical Pregnancy,4823.49,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+IER45333,(비상)자궁외임신수술-자궁경관임신(권역응급의료센터·전문응급의료센터·권역외상센터·지역응급의료센터),Cervical Pregnancy,1607.83,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+IER45340,(비상)자궁외임신수술-복강내임신(권역응급의료센터·전문응급의료센터·권역외상센터),Abdominal Pregnancy,2303.83,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+IER45341,(비상)자궁외임신수술-복강내임신(지역응급의료센터),Abdominal Pregnancy,6911.48,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+IER45343,(비상)자궁외임신수술-복강내임신(권역응급의료센터·전문응급의료센터·권역외상센터·지역응급의료센터),Abdominal Pregnancy,2303.83,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+N0830,용수지수술,Trigger Finger,1227.8,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830001,용수지수술,Trigger Finger,613.9,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830002,용수지수술,Trigger Finger,2701.16,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830003,용수지수술,Trigger Finger,2455.6,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830004,용수지수술,Trigger Finger,859.46,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830005,용수지수술,Trigger Finger,1841.7,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830006,용수지수술,Trigger Finger,1890.81,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830007,용수지수술,Trigger Finger,1718.92,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830008,용수지수술,Trigger Finger,1289.19,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830010,용수지수술,Trigger Finger,1841.7,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830011,용수지수술,Trigger Finger,920.85,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830050,용수지수술,Trigger Finger,1841.7,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830051,용수지수술,Trigger Finger,920.85,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830080,용수지수술,Trigger Finger,1596.14,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830081,용수지수술,Trigger Finger,798.07,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300L0,용수지수술,Trigger Finger,2455.6,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300L1,용수지수술,Trigger Finger,1227.8,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300L2,용수지수술,Trigger Finger,3928.96,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300L3,용수지수술,Trigger Finger,3683.4,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300L4,용수지수술,Trigger Finger,1718.92,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300L5,용수지수술,Trigger Finger,3069.5,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300L6,용수지수술,Trigger Finger,2750.27,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300L7,용수지수술,Trigger Finger,2578.38,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300L8,용수지수술,Trigger Finger,2148.65,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300M0,용수지수술,Trigger Finger,2455.6,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300M1,용수지수술,Trigger Finger,1227.8,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300M2,용수지수술,Trigger Finger,3928.96,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300M3,용수지수술,Trigger Finger,3683.4,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300M4,용수지수술,Trigger Finger,1718.92,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300M5,용수지수술,Trigger Finger,3069.5,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300M6,용수지수술,Trigger Finger,2750.27,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300M7,용수지수술,Trigger Finger,2578.38,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08300M8,용수지수술,Trigger Finger,2148.65,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830600,용수지수술,Trigger Finger,2455.6,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830601,용수지수술,Trigger Finger,1227.8,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830610,용수지수술,Trigger Finger,3069.5,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830611,용수지수술,Trigger Finger,1534.75,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830650,용수지수술,Trigger Finger,3069.5,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830651,용수지수술,Trigger Finger,1534.75,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08306L0,용수지수술,Trigger Finger,3683.4,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08306L1,용수지수술,Trigger Finger,1841.7,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08306M0,용수지수술,Trigger Finger,3683.4,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N08306M1,용수지수술,Trigger Finger,1841.7,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830A00,용수지수술,Trigger Finger,1841.7,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830A01,용수지수술,Trigger Finger,920.85,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830A10,용수지수술,Trigger Finger,2455.6,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830A11,용수지수술,Trigger Finger,1227.8,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830A50,용수지수술,Trigger Finger,2455.6,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830A51,용수지수술,Trigger Finger,1227.8,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830AL0,용수지수술,Trigger Finger,3069.5,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830AL1,용수지수술,Trigger Finger,1534.75,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830AM0,용수지수술,Trigger Finger,3069.5,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830AM1,용수지수술,Trigger Finger,1534.75,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830B00,용수지수술,Trigger Finger,1596.14,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830B01,용수지수술,Trigger Finger,798.07,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830B10,용수지수술,Trigger Finger,2210.04,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830B11,용수지수술,Trigger Finger,1105.02,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830B50,용수지수술,Trigger Finger,2210.04,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830B51,용수지수술,Trigger Finger,1105.02,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830BL0,용수지수술,Trigger Finger,2823.94,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830BL1,용수지수술,Trigger Finger,1411.97,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830BM0,용수지수술,Trigger Finger,2823.94,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+N0830BM1,용수지수술,Trigger Finger,1411.97,,방아쇠손가락,Trigger finger,exact,영문명_영문명,100
+R4532,자궁외임신수술-자궁각임신,Cornual Pregnancy,4503.86,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R4532001,자궁외임신수술-자궁각임신,Cornual Pregnancy,2251.93,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R4532004,자궁외임신수술-자궁각임신,Cornual Pregnancy,3152.7,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R4532010,자궁외임신수술-자궁각임신,Cornual Pregnancy,6755.79,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R4532011,자궁외임신수술-자궁각임신,Cornual Pregnancy,3377.9,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R4532050,자궁외임신수술-자궁각임신,Cornual Pregnancy,6755.79,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R4532051,자궁외임신수술-자궁각임신,Cornual Pregnancy,3377.9,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R4532080,자궁외임신수술-자궁각임신,Cornual Pregnancy,5855.02,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R4532081,자궁외임신수술-자궁각임신,Cornual Pregnancy,2927.51,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R4532090,자궁외임신수술-자궁각임신,Cornual Pregnancy,9007.72,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R4532094,자궁외임신수술-자궁각임신,Cornual Pregnancy,6305.4,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320A0,자궁외임신수술-자궁각임신,Cornual Pregnancy,13511.58,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320A4,자궁외임신수술-자궁각임신,Cornual Pregnancy,9458.11,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320B0,자궁외임신수술-자궁각임신,Cornual Pregnancy,13511.58,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320B4,자궁외임신수술-자궁각임신,Cornual Pregnancy,9458.11,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320D0,자궁외임신수술-자궁각임신,Cornual Pregnancy,9007.72,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320D1,자궁외임신수술-자궁각임신,Cornual Pregnancy,4503.86,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320D4,자궁외임신수술-자궁각임신,Cornual Pregnancy,6305.4,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320E0,자궁외임신수술-자궁각임신,Cornual Pregnancy,13511.58,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320E1,자궁외임신수술-자궁각임신,Cornual Pregnancy,6755.79,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320E4,자궁외임신수술-자궁각임신,Cornual Pregnancy,9458.11,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320F0,자궁외임신수술-자궁각임신,Cornual Pregnancy,13511.58,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320F1,자궁외임신수술-자궁각임신,Cornual Pregnancy,6755.79,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320F4,자궁외임신수술-자궁각임신,Cornual Pregnancy,9458.11,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320G0,자궁외임신수술-자궁각임신,Cornual Pregnancy,18015.44,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320G1,자궁외임신수술-자궁각임신,Cornual Pregnancy,9007.72,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320G4,자궁외임신수술-자궁각임신,Cornual Pregnancy,12610.81,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320L0,자궁외임신수술-자궁각임신,Cornual Pregnancy,9007.72,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320L1,자궁외임신수술-자궁각임신,Cornual Pregnancy,4503.86,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320L4,자궁외임신수술-자궁각임신,Cornual Pregnancy,6305.4,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320M0,자궁외임신수술-자궁각임신,Cornual Pregnancy,9007.72,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320M1,자궁외임신수술-자궁각임신,Cornual Pregnancy,4503.86,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R45320M4,자궁외임신수술-자궁각임신,Cornual Pregnancy,6305.4,,자궁각 임신,Cornual pregnancy,exact,영문명_영문명,100
+R4533,자궁외임신수술-자궁경관임신,Cervical Pregnancy,3215.66,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R4533001,자궁외임신수술-자궁경관임신,Cervical Pregnancy,1607.83,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R4533004,자궁외임신수술-자궁경관임신,Cervical Pregnancy,2250.96,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R4533010,자궁외임신수술-자궁경관임신,Cervical Pregnancy,4823.49,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R4533011,자궁외임신수술-자궁경관임신,Cervical Pregnancy,2411.75,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R4533050,자궁외임신수술-자궁경관임신,Cervical Pregnancy,4823.49,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R4533051,자궁외임신수술-자궁경관임신,Cervical Pregnancy,2411.75,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R4533080,자궁외임신수술-자궁경관임신,Cervical Pregnancy,4180.36,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R4533081,자궁외임신수술-자궁경관임신,Cervical Pregnancy,2090.18,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R4533090,자궁외임신수술-자궁경관임신,Cervical Pregnancy,6431.32,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R4533094,자궁외임신수술-자궁경관임신,Cervical Pregnancy,4501.92,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330A0,자궁외임신수술-자궁경관임신,Cervical Pregnancy,9646.98,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330A4,자궁외임신수술-자궁경관임신,Cervical Pregnancy,6752.89,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330B0,자궁외임신수술-자궁경관임신,Cervical Pregnancy,9646.98,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330B4,자궁외임신수술-자궁경관임신,Cervical Pregnancy,6752.89,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330D0,자궁외임신수술-자궁경관임신,Cervical Pregnancy,6431.32,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330D1,자궁외임신수술-자궁경관임신,Cervical Pregnancy,3215.66,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330D4,자궁외임신수술-자궁경관임신,Cervical Pregnancy,4501.92,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330E0,자궁외임신수술-자궁경관임신,Cervical Pregnancy,9646.98,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330E1,자궁외임신수술-자궁경관임신,Cervical Pregnancy,4823.49,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330E4,자궁외임신수술-자궁경관임신,Cervical Pregnancy,6752.89,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330F0,자궁외임신수술-자궁경관임신,Cervical Pregnancy,9646.98,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330F1,자궁외임신수술-자궁경관임신,Cervical Pregnancy,4823.49,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330F4,자궁외임신수술-자궁경관임신,Cervical Pregnancy,6752.89,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330G0,자궁외임신수술-자궁경관임신,Cervical Pregnancy,12862.64,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330G1,자궁외임신수술-자궁경관임신,Cervical Pregnancy,6431.32,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330G4,자궁외임신수술-자궁경관임신,Cervical Pregnancy,9003.85,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330L0,자궁외임신수술-자궁경관임신,Cervical Pregnancy,6431.32,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330L1,자궁외임신수술-자궁경관임신,Cervical Pregnancy,3215.66,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330L4,자궁외임신수술-자궁경관임신,Cervical Pregnancy,4501.92,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330M0,자궁외임신수술-자궁경관임신,Cervical Pregnancy,6431.32,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330M1,자궁외임신수술-자궁경관임신,Cervical Pregnancy,3215.66,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R45330M4,자궁외임신수술-자궁경관임신,Cervical Pregnancy,4501.92,,자궁경부 임신,Cervical pregnancy,exact,영문명_영문명,100
+R4534,자궁외임신수술-복강내임신,Abdominal Pregnancy,4607.65,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R4534001,자궁외임신수술-복강내임신,Abdominal Pregnancy,2303.83,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R4534004,자궁외임신수술-복강내임신,Abdominal Pregnancy,3225.36,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R4534010,자궁외임신수술-복강내임신,Abdominal Pregnancy,6911.48,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R4534011,자궁외임신수술-복강내임신,Abdominal Pregnancy,3455.74,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R4534050,자궁외임신수술-복강내임신,Abdominal Pregnancy,6911.48,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R4534051,자궁외임신수술-복강내임신,Abdominal Pregnancy,3455.74,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R4534080,자궁외임신수술-복강내임신,Abdominal Pregnancy,5989.95,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R4534081,자궁외임신수술-복강내임신,Abdominal Pregnancy,2994.97,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R4534090,자궁외임신수술-복강내임신,Abdominal Pregnancy,9215.3,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R4534094,자궁외임신수술-복강내임신,Abdominal Pregnancy,6450.71,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340A0,자궁외임신수술-복강내임신,Abdominal Pregnancy,13822.95,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340A4,자궁외임신수술-복강내임신,Abdominal Pregnancy,9676.07,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340B0,자궁외임신수술-복강내임신,Abdominal Pregnancy,13822.95,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340B4,자궁외임신수술-복강내임신,Abdominal Pregnancy,9676.07,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340D0,자궁외임신수술-복강내임신,Abdominal Pregnancy,9215.3,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340D1,자궁외임신수술-복강내임신,Abdominal Pregnancy,4607.65,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340D4,자궁외임신수술-복강내임신,Abdominal Pregnancy,6450.71,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340E0,자궁외임신수술-복강내임신,Abdominal Pregnancy,13822.95,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340E1,자궁외임신수술-복강내임신,Abdominal Pregnancy,6911.48,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340E4,자궁외임신수술-복강내임신,Abdominal Pregnancy,9676.07,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340F0,자궁외임신수술-복강내임신,Abdominal Pregnancy,13822.95,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340F1,자궁외임신수술-복강내임신,Abdominal Pregnancy,6911.48,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340F4,자궁외임신수술-복강내임신,Abdominal Pregnancy,9676.07,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340G0,자궁외임신수술-복강내임신,Abdominal Pregnancy,18430.6,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340G1,자궁외임신수술-복강내임신,Abdominal Pregnancy,9215.3,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340G4,자궁외임신수술-복강내임신,Abdominal Pregnancy,12901.42,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340L0,자궁외임신수술-복강내임신,Abdominal Pregnancy,9215.3,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340L1,자궁외임신수술-복강내임신,Abdominal Pregnancy,4607.65,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340L4,자궁외임신수술-복강내임신,Abdominal Pregnancy,6450.71,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340M0,자궁외임신수술-복강내임신,Abdominal Pregnancy,9215.3,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340M1,자궁외임신수술-복강내임신,Abdominal Pregnancy,4607.65,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+R45340M4,자궁외임신수술-복강내임신,Abdominal Pregnancy,6450.71,,복강임신,Abdominal pregnancy,exact,영문명_영문명,100
+S51300MA,망막박리수술,Retinal Detachment Surgery,75739.92,,단일열공이 있는 망막박리,Retinal detachment with single break,fuzzy,한글명_한글명,80
+N06810L0,급성화농성관절염절개술(고관절),Arthrotomy For Acute Septic Joint[Hip],8839.22,,고관절증,Coxarthrosis [arthrosis of hip],fuzzy,한글명_한글명,86
+N06810AF,급성화농성관절염절개술(고관절),Arthrotomy For Acute Septic Joint[Hip],21656.09,,고관절증,Coxarthrosis [arthrosis of hip],fuzzy,한글명_한글명,86
+M59416J0,"소아열성경련응급처치[관장,산소흡입료포함]",Resuscitation of Febrile Convulsion,1558.41,,열성 경련,Febrile convulsions,fuzzy,한글명_한글명,80
+N17150M7,인공관절재치환술-부분치환[고관절],Revision of Hemiarthroplasty[Hip],19908.55,,고관절증,Coxarthrosis [arthrosis of hip],fuzzy,한글명_한글명,86
+O02310G4,동맥류절제술[혈관이식술 포함]-흉복부대동맥,Resection of Aneurysm-Thoracoabdominal Aorta,325614.52,,복부대동맥박리,Dissection of abdominal aorta,fuzzy,한글명_한글명,83
+N0680090,급성화농성관절염절개술-복잡-고관절,Arthrotomy For Acute Septic Joint[Hip],10361.8,,고관절증,Coxarthrosis [arthrosis of hip],fuzzy,한글명_한글명,86
+N0591B11,척추 또는 골반의 골절 및 탈구에 대한 관혈적정복수술-척추,Open Reduction of Fracture and Dislocation of Spine or Pelvis-Spine,11646.28,,설골의 골절,Fracture of hyoid bone,fuzzy,한글명_한글명,83
+N0591BD1,척추 또는 골반의 골절 및 탈구에 대한 관혈적정복수술-척추,Open Reduction of Fracture and Dislocation of Spine or Pelvis-Spine,14881.36,,설골의 골절,Fracture of hyoid bone,fuzzy,한글명_한글명,83
+N05620M1,사지관절이단술[고관절],Disarticulation of Extremities[Hip],12420.32,,고관절증,Coxarthrosis [arthrosis of hip],fuzzy,한글명_한글명,86
+WK410,"호스피스 의원 격리실, 간호사1등급(보조활동포함)",,5267.61,,폐의 격리,Sequestration of lung,fuzzy,한글명_한글명,80
+N07210L5,절제관절성형술[고관절],Resection Arthroplasty[Hip],22994.05,,고관절증,Coxarthrosis [arthrosis of hip],fuzzy,한글명_한글명,86
+S57200L6,이후루공폐쇄술,Repair of Postauricular Fistula,6031.07,,후비공폐쇄,Choanal atresia,fuzzy,한글명_한글명,80
+T6162A90,"반창고부착술-견관절부,고관절부","Strapping of Shoulder, Hip",406.95,,"관절통, 고관절","Pain in joint, hip (joint)",fuzzy,한글명_한글명,86
+O02310L0,동맥류절제술[혈관이식술 포함]-흉복부대동맥,Resection of Aneurysm-Thoracoabdominal Aorta,232581.8,,복부대동맥박리,Dissection of abdominal aorta,fuzzy,한글명_한글명,83
+O0231VG1,동맥류절제술[혈관이식술 포함]-흉복부대동맥,Resection of Aneurysm-Thoracoabdominal Aorta,331429.07,,복부대동맥박리,Dissection of abdominal aorta,fuzzy,한글명_한글명,83
+N0751004,관절탈구 관혈적정복술(고관절),Open Reduction of Dislocation[Hip],4349.86,,고관절증,Coxarthrosis [arthrosis of hip],fuzzy,한글명_한글명,86
+N0562F97,사지관절이단술[고관절],Disarticulation of Extremities[Hip],34776.9,,고관절증,Coxarthrosis [arthrosis of hip],fuzzy,한글명_한글명,86
+WK408,호스피스 의원 격리실 진료의뢰 당일(보조활동포함),,1408.53,,폐의 격리,Sequestration of lung,fuzzy,한글명_한글명,80
+N07316L0,관절고정술[고관절],Arthrodesis[Hip],21940.71,,고관절증,Coxarthrosis [arthrosis of hip],fuzzy,한글명_한글명,86
+S51300DA,망막박리수술,Retinal Detachment Surgery,75739.92,,단일열공이 있는 망막박리,Retinal detachment with single break,fuzzy,한글명_한글명,80
+WK411200,"호스피스 의원 격리실, 간호사1등급, 사회복지사1등급(보조활동포함)",,2680.98,,폐의 격리,Sequestration of lung,fuzzy,한글명_한글명,80
+N068100H,급성화농성관절염절개술(고관절),Arthrotomy For Acute Septic Joint[Hip],6629.42,,고관절증,Coxarthrosis [arthrosis of hip],fuzzy,한글명_한글명,86
+N0591BM0,척추 또는 골반의 골절 및 탈구에 대한 관혈적정복수술-척추,Open Reduction of Fracture and Dislocation of Spine or Pelvis-Spine,29762.71,,설골의 골절,Fracture of hyoid bone,fuzzy,한글명_한글명,83
+S51300DH,망막박리수술,Retinal Detachment Surgery,12623.32,,단일열공이 있는 망막박리,Retinal detachment with single break,fuzzy,한글명_한글명,80
+O02310L3,동맥류절제술[혈관이식술 포함]-흉복부대동맥,Resection of Aneurysm-Thoracoabdominal Aorta,348872.7,,복부대동맥박리,Dissection of abdominal aorta,fuzzy,한글명_한글명,83
+N0715080,인공관절치환술-부분치환술[고관절],Hemiarthroplasty[Hip],9482.16,,고관절증,Coxarthrosis [arthrosis of hip],fuzzy,한글명_한글명,86
+R4441010,계류유산소파술-12주미만,Treatment of Missed Abortion,1878.33,,계류유산,Missed abortion,fuzzy,한글명_한글명,100
+O0231PM0,동맥류절제술[혈관이식술 포함]-흉복부대동맥,Resection of Aneurysm-Thoracoabdominal Aorta,372130.88,,복부대동맥박리,Dissection of abdominal aorta,fuzzy,한글명_한글명,83
+N05940L0,척추 또는 골반의 골절 및 탈구에 대한 관혈적정복수술-골반-Closed Pinning,Open Reduction of Fracture and Dislocation of Spine or Pelvis-Pelvis-Closed Pinning,12937.33,,설골의 골절,Fracture of hyoid bone,fuzzy,한글명_한글명,83
