@@ -1,0 +1,17 @@
+=== 의약품 사전 구축 완료 보고서 ===
+
+구축 일시: 2024년
+
+생성된 사전 파일:
+  - unique_terms_clean.txt: 고유명사 사전 (32,293개)
+  - code_mapping_clean.txt: 코드-명칭 매핑 (8,902개)
+  - search_synonyms_clean.csv: 통합 유의어 사전 (4,842개)
+  - product_variants.txt: 상품명 변형 사전 (4,066개)
+  - ingredient_dictionary.txt: 성분 한글-영문 사전 (871개)
+  - complex_drugs.txt: 복합제 리스트 (226개)
+
+=== OpenSearch 사전 사용법 ===
+1. unique_terms_clean.txt: 사용자 사전으로 로드
+2. search_synonyms_clean.csv: 동의어 사전으로 활용
+3. code_mapping_clean.txt: 코드 검색 기능에 활용
+4. product_variants.txt: 제품명 검색 확장에 활용

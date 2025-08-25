@@ -1,0 +1,12 @@
+# OpenSearch 유의어 사전
+# 사용법: 각 줄이 하나의 유의어 그룹을 나타냄
+# 동일 성분의 한글명, 영문명, 제품명, 띄어쓰기 변형을 포함
+# 
+# 총 8,167개 유의어 그룹이 enhanced_search_synonyms.txt에 생성됨
+# 주요 예시:
+
+chloral,chloral hydrate,chloralhydrate,hydrate,클로랄하이드레이트,포크랄시럽,포크랄시럽(클로랄하이드레이트
+doxorubicin,독소루비신염산염,독소루비신주,아드리아신주
+paracetamol,acetaminophen,아세트아미노펜,타이레놀,낙센타이노펜정,게낙정
+vancomycin,반코마이신염산염,바이신주,동광반코마이신주
+ceftriaxone,세프트리악손나트륨수화물,트리악셋주,로세핀주
